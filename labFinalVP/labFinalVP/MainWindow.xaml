@@ -1,0 +1,19 @@
+﻿<Window x:Class="YourNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Course Management" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="dgCourses" AutoGenerateColumns="True" Margin="10,10,10,50" />
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10">
+            <TextBlock Text="Add New Course" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <TextBlock Text="Course Name:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="txtCourseName" Width="200"/>
+            </StackPanel>
+
+            <Button Content="Add Course" Click="AddCourse_Click" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

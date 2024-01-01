@@ -1,0 +1,28 @@
+﻿<Window x:Class="YourNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Management" Height="350" Width="525">
+
+    <Grid>
+        <DataGrid x:Name="dataGridStudents" AutoGenerateColumns="True" Margin="10,10,10,50" />
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10">
+            <TextBlock Text="Add New Student" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <TextBlock Text="First Name:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="textBoxFirstName" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <TextBlock Text="Last Name:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="textBoxLastName" Width="200"/>
+            </StackPanel>
+
+            <Button Content="Add Student" Click="AddStudent_Click" Width="100" x:Name="buttonAddStudent"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
+
+    

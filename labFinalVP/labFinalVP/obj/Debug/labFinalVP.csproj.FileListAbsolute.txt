@@ -1,0 +1,9 @@
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\labFinalVP.csprojAssemblyReference.cache
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\MainWindow.baml
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\Window1.baml
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\Window2.baml
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\MainWindow.g.cs
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\Window1.g.cs
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\Window2.g.cs
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\App.g.cs
+C:\Users\213011\source\repos\labFinalVP\labFinalVP\obj\Debug\labFinalVP_MarkupCompile.cache
